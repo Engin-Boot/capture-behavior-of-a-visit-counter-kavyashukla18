@@ -18,7 +18,7 @@ Scenario: Addition of two negative numbers
   And I press "equals"
   Then I see the "added number" as the result
 
-Scenario: Addition of fractions ({pos,nes},{neg,pos},{neg,neg})
+Scenario: Addition of fractions 
 
   Given The calculator is turned on able to enter fraction
   When I type in "positive fraction number"
@@ -36,7 +36,7 @@ Scenario: Addition of pos and neg number
   And I press "equals"
   Then I see the "added number" as the result
 
-Scenario: Addition of decimals({pos,pos},{pos,neg},{neg,neg})
+Scenario: Addition of decimals
   
   Given The calculator is turned on able to enter decimal number
   When I type in "positive decimal number"
