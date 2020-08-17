@@ -92,5 +92,7 @@ Scenario: Identify operation
   
 Scenario: Converse operation
   Given: the calculator is turned ON
-  When: I type operand2 + operan1
-  Then: I get the same answer as that of operand1 + operand2
+  And I type in "number"
+  And I press "plus"
+  And I type in "number"
+  Then I see the "added number" as the result
